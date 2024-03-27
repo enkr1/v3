@@ -1,9 +1,10 @@
+$padding-tb-window: 4.1%;
+
 // Used for click event
 .about {
     .container {
         $color-h-window: rgb(0, 0, 0);
-        $padding-tb-window: 4.1%;
-        $padding-side-window: $padding-tb-window / 1.7;
+        $padding-side-window: calc($padding-tb-window / 1.7);
         $height-window: 80vh;
         $hovered-opacity-window: .93;
         $hovered-height: 88vh;
@@ -40,7 +41,7 @@
             width: 50%;
             height: $height-window;
             position: absolute;
-            top: $padding-tb-window + 6%;
+            top: calc($padding-tb-window + 6%);
             transition: all 1.2s ease-in-out;
             // transition: left 3s ease-in-out,
             //     top 1s ease-in-out;
@@ -173,7 +174,7 @@
             }
 
             &.window-right {
-                top: $padding-tb-window +5%;
+                top: calc($padding-tb-window + 5%);
                 height: $height-window + 2vh;
                 right: $padding-side-window;
                 background-color: rgb(199, 199, 199);

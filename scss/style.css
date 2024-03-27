@@ -1433,7 +1433,7 @@ header {
   width: 50%;
   height: 80vh;
   position: absolute;
-  top: 10.1%;
+  top: calc($padding-tb-window + 6%);
   -webkit-transition: all 1.2s ease-in-out;
   transition: all 1.2s ease-in-out;
   border-radius: 1rem;
@@ -1512,7 +1512,7 @@ header {
   }
 }
 .about .container .window.window-left.anim-from-left {
-  left: 2.4117647059%;
+  left: calc($padding-tb-window / 1.7);
 }
 .about .container .window.window-left .terminal-body {
   height: calc(100% - 40px);
@@ -1550,9 +1550,9 @@ header {
   outline: none;
 }
 .about .container .window.window-right {
-  top: 9.1%;
+  top: calc($padding-tb-window + 5%);
   height: 82vh;
-  right: 2.4117647059%;
+  right: calc($padding-tb-window / 1.7);
   background-color: #c7c7c7;
   opacity: .8;
 }
@@ -1604,7 +1604,7 @@ header {
   }
 }
 .about .container .window.window-right .rm-body h2 {
-  margin: 1rem 0 0;
+  margin: 1.3rem 0 .8rem;
 }
 .about .container .window.window-right .rm-body .about-social-media ul {
   display: -webkit-box;
@@ -1802,6 +1802,7 @@ header {
   height: -moz-fit-content;
   height: fit-content;
   opacity: .1;
+  z-index: 1;
 }
 @media all and (max-width: 1281px) {
   .experience .container .timeline-container #svg-journey-route {
@@ -1838,6 +1839,7 @@ header {
 .experience .container .timeline-container .single-exp-container {
   position: relative;
   padding: 0 0 0 4rem;
+  z-index: 2;
 }
 .experience .container .timeline-container .single-exp-container::before {
   position: absolute;
@@ -1993,7 +1995,7 @@ header {
   }
 }
 .contact .container .section-heading {
-  padding: 10rem 0 2rem 0 !important;
+  padding: 3rem 0 2rem 0 !important;
   -webkit-box-shadow: unset;
           box-shadow: unset;
 }
