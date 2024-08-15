@@ -3,7 +3,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://enkr1.github.io/</loc>
+    <loc>https://www.enkr1.com/</loc>
     <lastmod>2024-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- Portfolio Page -->
   <url>
-    <loc>https://enkr1.github.io/portfolio</loc>
+    <loc>https://www.enkr1.com/portfolio</loc>
     <lastmod>2024-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -19,7 +19,7 @@
 
   <!-- Resume Page -->
   <url>
-    <loc>https://enkr1.github.io/resume</loc>
+    <loc>https://www.enkr1.com/resume</loc>
     <lastmod>2024-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -27,7 +27,7 @@
 
   <!-- Platforms Page -->
   <url>
-    <loc>https://enkr1.github.io/platforms</loc>
+    <loc>https://www.enkr1.com/platforms</loc>
     <lastmod>2024-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -35,7 +35,7 @@
 
   <!-- Interest Page -->
   <url>
-    <loc>https://enkr1.github.io/interest</loc>
+    <loc>https://www.enkr1.com/interest</loc>
     <lastmod>2024-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -43,7 +43,7 @@
 
   <!-- 404 Error Page -->
   <url>
-    <loc>https://enkr1.github.io/404</loc>
+    <loc>https://www.enkr1.com/404</loc>
     <lastmod>2024-08-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
@@ -51,7 +51,7 @@
 
   <!-- Asset Example: Resume PDF -->
   <url>
-    <loc>https://enkr1.github.io/assets/pdfs/Resume%20-%20Jing%20Hui%20PANG%20-%20Mid%20Sep%202023%20-%20v1.0.1.pdf</loc>
+    <loc>https://www.enkr1.com/assets/pdfs/Resume%20-%20Jing%20Hui%20PANG%20-%20Mid%20Sep%202023%20-%20v1.0.1.pdf</loc>
     <lastmod>2024-08-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
